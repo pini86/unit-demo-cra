@@ -36,7 +36,8 @@
         "commitlint": "commitlint --edit",
         "lint": "eslint",
         "predeploy": "npm run build",
-        "deploy": "gh-pages -d build"
+        "deploy": "gh-pages -d build",
+        "prepare": "husky install"
     },
     "eslintConfig": {
         "extends": [
